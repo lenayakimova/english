@@ -1,0 +1,183 @@
+.review
+    background: url('../img/bg-trust.jpg') no-repeat
+    background-size: cover
+    &-block
+        position: relative
+    &__title
+        text-align: center
+        padding-top: 180px
+        padding-bottom: 65px
+    &-cards
+        display: flex
+        justify-content: space-around
+        padding-bottom: 370px
+    &__line
+        position: absolute
+        top: 650px
+        left: -180px
+        z-index: 20
+    &__line-2
+        position: absolute
+        right: -110px
+        top: 610px
+    &-card
+        box-shadow: 0 5px 10px rgba(0,0,0,0.5)
+        z-index: 10
+        background-color: $main-color
+        width: 462px
+        color: $bgc-color
+        text-align: center
+        &__circle
+            width: 225px
+            height: 225px
+            background-color: $circle-color
+            border-radius: 100%
+            margin: 20px auto
+            position: relative
+        &__number
+            font-size: 65px
+            color: $main-color
+            position: absolute
+            left: 0
+            right: 0
+            margin: 76px auto
+            display: block
+        &__subtitle
+            margin-top: 45px
+            font-size: 33px
+        &__text
+            font-size: 23px
+            +light
+
+@media screen and ( max-width: 1892px )
+    .review
+        &-cards
+            display: flex
+            padding-bottom: 320px
+        &__line
+            width: 200px
+            top: 470px
+            left: -100px
+        &__line-2
+            top: 450px
+            right: -15px
+            width: 200px
+        &-card
+            width: 300px
+            &__circle
+                width: 150px
+                height: 150px
+                background-color: $circle-color
+                border-radius: 100%
+                margin: 20px auto
+                position: relative
+            &__number
+                font-size: 40px
+                margin: 54px auto
+            &__subtitle
+                margin-top: 30px
+                font-size: 25px
+            &__text
+                font-size: 16px
+                +light
+
+@media screen and ( max-width: 1317px )
+    .review
+        &-cards
+            padding-bottom: 180px
+        &__line
+            width: 100px
+            top: 450px
+            left: -30px
+        &__line-2
+            top: 460px
+            width: 100px
+        &-card
+            width: 300px
+            &__circle
+                width: 130px
+                height: 130px
+                background-color: $circle-color
+                border-radius: 100%
+                margin: 20px auto
+                position: relative
+            &__number
+                font-size: 35px
+                margin: 45px auto
+            &__subtitle
+                margin-top: 30px
+                font-size: 22px
+            &__text
+                font-size: 14px
+
+@media screen and ( max-width: 1180px )
+    .review
+        &-block
+        &__title
+            padding-top: 180px
+        &-cards
+            padding-bottom: 140px
+        &__line
+            width: 90px
+            top: 420px
+            left: -40px
+        &__line-2
+            top: 400px
+            width: 90px
+        &-card
+            width: 200px
+            &__circle
+                width: 90px
+                height: 90px
+                background-color: $circle-color
+                border-radius: 100%
+                margin: 20px auto
+                position: relative
+            &__number
+                font-size: 25px
+                margin: 32px auto
+            &__subtitle
+                margin-top: 30px
+                font-size: 16px
+            &__text
+                font-size: 12px
+                
+
+@media screen and ( max-width: 740px )
+    .review
+        background: url('../img/bg-review.jpg') no-repeat 
+        background-size: cover
+        &__title
+            padding-top: 60px
+            font-size: 18px
+            padding-bottom: 0
+        &-block
+            display: flex
+            flex-direction: column
+            align-items: center
+        &-cards
+            padding-bottom: 90px
+            flex-direction: column
+        &-card
+            width: 150px
+            align-items: center
+            margin-top: 20px
+            &__circle
+                width: 82px
+                height: 82px
+                margin: 0 auto
+                margin-top: 23px
+                margin-bottom: 16px
+            &__number
+                font-size: 24px
+                margin: 29px auto
+            &__subtitle
+                margin-top: 0px
+                font-size: 12px
+            &__text
+                font-size: 9px
+                margin-bottom: 21px
+        &__line
+            display: none
+        &__line-2
+            display: none

@@ -1,0 +1,93 @@
+.footer
+    background-color: $circle-color
+    padding: 150px 0
+    &-block
+        display: flex
+        justify-content: space-between
+    &__title, &__question
+        font-size: 33px
+        margin-bottom: 27px
+    &__subtitle, &__connect
+        font-size: 24px
+        text-decoration: none
+        color: $main-color
+    &-list
+        margin-top: 30px
+        list-style: none
+        padding-left: 0
+        &__item 
+            font-size: 20px
+            margin-bottom: 10px
+            &:last-child
+                margin-bottom: 0
+    &__icons
+        display: flex
+        align-items: center
+        margin-top: 25px
+        margin-left: -30px
+    &__icon
+        text-decoration: none
+        margin-left: 30px
+@media screen and ( max-width: 1892px )
+    .footer
+        &__icon img
+            width: 60px
+        &-list
+            &__item
+                font-size: 18px
+@media screen and ( max-width: 1317px )
+    .footer
+        &__title, &__question
+            font-size: 28px
+        &__subtitle, &__connect
+            font-size: 20px
+        &-list
+            &__item
+                font-size: 16px
+        &__icon img
+            width: 45px
+@media screen and ( max-width: 1180px )
+    .footer
+        &__title, &__question
+            font-size: 24px
+        &__subtitle, &__connect
+            font-size: 18px
+        &-list
+            &__item
+                font-size: 14px
+        &__icon img
+            width: 40px
+@media screen and ( max-width: 740px )
+    .footer
+        padding: 65px 0
+        &__title, &__question
+            font-size: 21px
+            width: 153px
+            margin-bottom: 17px
+        &__connect
+            font-size: 15px
+        &__subtitle
+            font-size: 13px
+        &-list
+            margin-top: 15px
+            &__item
+                margin-bottom: 5px
+                font-size: 11px
+        &-block
+            display: flex
+            flex-direction: column
+        &__info
+            margin-top: 30px
+            order: 2
+        &__social
+            order: 1
+        &__icon img
+            width: 50px
+        &__icons
+            margin: auto
+            margin-top: 23px
+            
+
+        
+
+                

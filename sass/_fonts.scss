@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Helvetica Neue Cyr Bold';
+    src: url('../fonts/HelveticaNeueCyr-Bold.eot');
+    src: url('../fonts/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'),
+    url('../fonts/HelveticaNeueCyr-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+    }
+
+@font-face {
+    font-family: 'Helvetica Neue Cyr Roman';
+    src: url('../fonts/HelveticaNeueCyr-Roman.eot');
+    src: url('../fonts/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+    url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}
+
+@mixin bold {
+    font-family: 'Helvetica Neue Cyr Bold';
+    font-weight: 700;
+}
+
+@mixin light {
+    font-family: 'Helvetica Neue Cyr Roman';
+    font-weight: 400;
+}

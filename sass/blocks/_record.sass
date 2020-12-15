@@ -1,0 +1,210 @@
+.record
+    padding: 70px 0
+    background: url('../img/knight-bg.png') no-repeat center
+    background-position-y: 510px
+    background-size: 100%
+    &-block
+        position: relative
+    &__blue
+        position: absolute
+        left: 0
+        right: 0
+        margin: auto
+        z-index: -1
+        margin-top: 8px
+    &__title
+        color: $titleA-color
+        text-align: center
+    &__subtitle
+        color: $main-color
+        font-size: 44px
+        text-align: center
+        margin-top: 15px
+    &-cards
+        display: flex
+        align-items: center
+        justify-content: space-around
+    &__second
+        margin-left: -80px
+    &-card 
+        margin-top: 52px
+        max-width: 615px
+        width: 100%
+        box-shadow: 0 5px 10px rgba(0,0,0,0.5)
+        position: relative
+        &__header
+            padding: 15px 15px 0 15px
+            display: flex
+            align-items: center
+        &__title
+            font-size: 58px
+            color: $titleA-color
+            max-width: 243px
+            width: 100%
+            text-align: center
+            position: absolute
+            right: 10px
+        &__body
+            background-color: $bgc-color
+            text-align: center
+            padding: 33px 0
+        &__text
+            font-size: 37px
+            max-width: 391px
+            margin: auto
+            margin-bottom: 30px
+        &__item 
+            max-width: 518px
+            font-size: 22px
+            margin: auto
+            margin-bottom: 23px
+            +light 
+        &__start
+            font-size: 24px
+            display: block
+        &__price
+            font-size: 36px
+            margin-bottom: 25px
+            display: block
+        &__button
+            font-size: 22px
+            padding: 12px 0
+            max-width: 528px
+            width: 100%
+            margin: auto
+            display: block
+            background-color: $titleA-color
+    &__last
+        margin: 0 auto
+        margin-top: 50px
+        
+@media screen and ( max-width: 1892px )
+    .record
+        background-position-y: 450px
+        background-size: 95%
+        &__blue
+            width: 500px
+            margin-top: 10px
+        &__subtitle
+            font-size: 33px
+        &-card
+            width: 450px
+            &__title
+                font-size: 33px
+                width: 180px
+            &__img
+                width: 250px
+            &__text
+                font-size: 28px
+            &__item
+                font-size: 18px
+                width: 400px
+            &__start
+                font-size: 20px
+            &__price
+                font-size: 28px
+            &__button
+                width: 400px
+@media screen and ( max-width: 1317px )
+    .record
+        background-position-y: 450px
+        background-size: 95%
+        &__blue
+            width: 430px
+            margin-top: 12px
+        &__subtitle
+            font-size: 28px
+        &-card
+            width: 400px
+            &__title
+                font-size: 28px
+                width: 160px
+            &__img
+                width: 230px
+            &__text
+                font-size: 25px
+                width: 260px
+            &__item
+                font-size: 16px
+                width: 380px
+            &__start
+                font-size: 18px
+            &__price
+                font-size: 28px
+            &__button
+                width: 350px
+@media screen and ( max-width: 1180px )
+    .record
+        background-position-y: 400px
+        background-size: 90%
+        &__blue
+            width: 430px
+            margin-top: 12px
+        &__subtitle
+            font-size: 28px
+        &-card
+            width: 300px
+            &__title
+                font-size: 25px
+                width: 140px
+            &__img
+                width: 180px
+            &__text
+                font-size: 22px
+                width: 240px
+            &__item
+                font-size: 14px
+                width: 285px
+            &__start
+                font-size: 16px
+            &__price
+                font-size: 24px
+            &__button
+                width: 260px
+                font-size: 16px
+@media screen and ( max-width: 740px )
+    .record
+        padding: 25px 0
+        background: none
+        &__blue
+            width: 230px
+            margin-top: 4px
+        &__title
+            font-size: 16px
+        &__subtitle
+            margin-top: 5px
+            font-size: 16px
+        &-cards
+            margin-top: -25px
+            display: flex
+            flex-direction: column
+            align-items: center
+        &__second
+            margin-left: 0
+        &-card 
+            width: 220px
+            &__body
+                padding: 10px 0
+            &__title
+                
+                width: 87px
+                font-size: 20px
+            &__img
+                width: 110px
+            &__text 
+                margin-bottom: 7px
+                font-size: 13px
+                width: 111px
+            &__item
+                width: 160px
+                font-size: 9px
+                margin-bottom: 7px
+            &__start
+                font-size: 9px
+            &__price
+                font-size: 12px
+                margin-bottom: 9px
+            &__button
+                font-size: 12px
+                width: 194px
+                padding: 4px 0

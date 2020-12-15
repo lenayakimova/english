@@ -1,0 +1,174 @@
+.header
+    overflow: hidden
+    min-height: 100%
+    max-height: 100%
+    padding-top: 10px
+    background: url('../img/bg.jpg') no-repeat
+    background-size: cover
+    padding-bottom: 36px
+    &__better
+        width: 146px
+    &-block
+        display: flex
+        align-items: center
+        justify-content: space-between
+        z-index: 99
+    &-list
+        display: flex
+        &__item
+            margin-right: 70px
+            list-style: none
+            &:last-child
+                margin-right: 0
+    &__link
+        text-decoration: none
+        color: $main-color
+        font-size: 22px
+        padding-bottom: 2px
+        &:hover
+            color: $hove-color
+            border-bottom: 2px solid $hove-color
+    &__entry
+        background-color: $main-color
+        text-decoration: none
+        font-size: 22px
+        color: $red-color
+        padding: 10px 21px
+        border-radius: 90px
+        text-align: center
+        &:hover
+            background-color: $bgc-color
+            color: $main-color
+            
+    &__line
+        height: 3px
+        opacity: 0.2
+        border: none
+        background-color: $main-color
+    &-hero
+        background: url('../img/figure.png') no-repeat center center
+        background-size: 100%
+    &__title
+        font-size: 72px
+        text-align: center
+        width: 870px
+        margin: 0px auto
+        margin-bottom: 30px
+        padding-top: 30px
+    &__button
+        display: block
+        width: 563px
+        padding: 12px 0
+        margin: auto
+    &__video 
+        margin-bottom: 38px
+        display: block
+        margin: 0 auto
+        margin-bottom: 38px
+
+@media screen and ( max-width: 1892px )
+    .header
+        overflow: hidden
+        min-height: 100%
+        max-height: 100%
+        &-block
+            max-width: 1280px
+        &-list
+            &__item
+                margin-right: 45px
+        &__link
+            font-size: 20px
+        &__entry
+            font-size: 20px
+        &__title
+            width: 640px
+            font-size: 50px
+        &__video 
+            width: 660px
+            height: 350px
+        &__button
+            width: 400px
+            padding: 14px 0
+            margin: auto
+        &-hero
+            background-size: 85%
+@media screen and ( max-width: 1317px )
+    .header
+        overflow: hidden
+        min-height: 100%
+        max-height: 100%
+        &-block
+            max-width: 1170px
+        &-list
+            &__item
+                margin-right: 40px
+        &__link
+            font-size: 18px
+        &__entry
+            font-size: 18px
+        &__title
+            font-size: 45px
+            width: 590px
+        &__video 
+            height: 350px
+            width: 650px
+        &__button
+            width: 370px
+            padding: 14px 0
+            margin: auto
+@media screen and ( max-width: 1180px )
+    .header
+        &-block
+            max-width: 740px
+        &-list
+            &__item
+                margin-right: 35px
+        &__link
+            font-size: 16px
+        &__entry
+            font-size: 16px
+        &__title
+            width: 500px
+            font-size: 40px
+        &__video 
+            height: 300px
+            width: 500px
+        &__button
+            width: 340px
+            padding: 14px 0
+            margin: auto
+        &-hero
+            background-size: 100%
+        &__better
+            width: 130px
+@media screen and ( max-width: 740px )
+    .header
+        &-block
+            max-width: 315px
+        &-hero
+            background: none
+        &__better
+            margin-top: 4px
+            width: 65px
+        &-list
+            &__item
+                margin-right: 15px
+        &__link
+            font-size: 11.5px
+        &__entry
+            font-size: 11.5px
+            padding: 5px 10px
+        &__title
+            font-size: 25px
+            width: 290px
+        &__video 
+            height: 135px
+            width: 243px
+        &__button
+            font-size: 25px
+            background-color: $main-color
+            color: $btn-color
+            width: 243px
+            padding: 8px 0
+            margin: auto
+    

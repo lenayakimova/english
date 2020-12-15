@@ -1,0 +1,440 @@
+.info
+    position: relative
+    padding-bottom: 570px
+    &-block
+        position: relative
+    &__title 
+        background-color: $btn-color
+        margin: auto
+        margin-top: 92px
+        width: 990px
+        border-radius: 90px
+        padding-bottom: 2px
+        margin-bottom: 110px
+        text-align: center
+    &__rectangle
+        box-shadow: none
+        width: 928px
+        height: 104px
+        position: absolute
+        left: 0
+        top: 0
+        right: 0
+        margin: 90px auto
+    &__fig
+        position: absolute
+        top: -20px
+        left: -5px
+        z-index: 1
+    &__fig2
+        position: absolute
+        left: 1314px
+        top: -19px
+        z-index: 2
+    &__plan
+        display: flex
+        margin-left: 120px
+        margin-top: 65px
+    &__circle 
+        background-color: $btn-color
+    &__one
+        font-size: 96px
+        position: absolute
+        left: 32%
+        top: 15%
+    &__text
+        position: relative
+        margin-top: 10px
+        color: $item-color
+        margin-left: 72px
+    &__subtitle
+        font-size: 63px
+    &__item 
+        font-size: 36px
+        +light
+    &__arrow
+        position: absolute
+        right: -250px
+        top: 28px
+    &__comp
+        display: block
+        position: absolute
+        margin: auto
+        right: 0
+        left: 0
+        margin-top: 30px
+        
+.info-2
+    background-color: $bgc-color
+    padding-top: 500px   
+    padding-bottom: 350px
+    &__plan
+        position: relative
+        display: flex
+        margin-left: 120px
+        margin-top: 65px
+    &__one
+        font-size: 96px
+        position: absolute
+        left: 32%
+        top: 15%
+    &__text
+        position: relative
+        margin-top: 10px
+        margin-left: 72px
+    &__subtitle
+        font-size: 63px
+    &__item 
+        width: 950px
+        font-size: 36px
+        +light
+    &__circle 
+        background-color: #5BB6D3
+    &__circle2
+        background-color: #C58EF3
+    &__arrow
+        position: absolute
+        left: -200px
+        top: 60px
+    &__letter
+        margin-left: 160px
+    &__offer
+        display: flex
+        flex-direction: column
+        align-items: center
+        position: absolute
+        width: 100%
+        margin-top: 84px
+        background-color: $btn-color
+    &__pink
+        font-size: 94px
+        text-align: center
+        display: block
+        padding: 2px 0
+    &__fly
+        width: 350px
+        position: absolute
+        z-index: 10
+        right: 0
+        top: 445px
+    &__block 
+        position: relative
+
+
+@media screen and ( max-width: 1892px )
+    .info
+        padding-bottom: 450px
+        &__title 
+            width: 575px
+        &__fig
+            width: 220px
+            top: -20px
+            left: 133px
+        &__fig2
+            width: 220px
+            left: 931px
+            top: -19px
+        &__plan
+            align-items: center
+            margin-left: 150px
+            margin-top: 65px
+        &__one
+            font-size: 50px
+            left: 35%
+            top: 19%
+        &__text
+            margin-top: 5px
+            margin-left: 50px
+        &__subtitle
+            font-size: 45px
+        &__item 
+            font-size: 26px
+        &__arrow
+            width: 120px
+            right: -160px
+            top: 28px
+        &__comp
+            width: 1200px
+            margin-top: 50px
+    .info-2
+        padding-top: 290px
+        &__pls
+            padding-top: 35px
+        &__plan
+            align-items: center
+            margin-left: 150px
+            margin-top: 40px
+        &__one
+            font-size: 50px
+            left: 35%
+            top: 19%
+        &__letter
+            width: 170px
+            margin-left: 0px
+        &__text
+            margin-top: 5px
+            margin-left: 50px
+        &__subtitle
+            font-size: 45px
+        &__item 
+            width: 800px
+            font-size: 26px
+        &__arrow
+            width: 105px
+            top: 60px
+            left: -115px
+        &__pink
+            font-size: 55px
+            text-align: center
+            display: block
+        &__fly
+            width: 250px
+            top: 335px
+        
+@media screen and ( max-width: 1317px )
+    .info
+        padding-bottom: 400px
+        &__title 
+            width: 520px
+        &__fig
+            width: 190px
+            top: -20px
+            left: 133px
+        &__fig2
+            width: 190px
+            left: 848px
+            top: -19px
+        &__plan
+            margin-left: 168px
+            margin-top: 75px
+        &__one
+            font-size: 45px
+            left: 35%
+            top: 19%
+        &__text
+            margin-top: 4px
+            margin-left: 40px
+        &__subtitle
+            font-size: 38px
+        &__item 
+            font-size: 22px
+        &__arrow
+            width: 90px
+            right: -130px
+            top: 28px
+        &__comp
+            width: 1000px
+            margin-top: 50px
+    .info-2
+        padding-top: 230px
+        &__plan
+            align-items: center
+            margin-left: 168px
+            margin-top: 40px
+        &__one
+            font-size: 45px
+            left: 35%
+            top: 19%
+        &__letter
+            width: 140px
+            margin-left: 0px
+        &__text
+            margin-top: 5px
+            margin-left: 40px
+        &__subtitle
+            font-size: 38px
+        &__item 
+            width: 600px
+            font-size: 22px
+        &__arrow
+            width: 90px
+            top: 60px
+            left: -100px
+        &__pink
+            font-size: 50px
+            text-align: center
+            display: block
+        &__fly
+            width: 250px
+            top: 285px
+        
+@media screen and ( max-width: 1180px )
+    .info
+        padding-bottom: 250px
+        &__title 
+            width: 420px
+        &__fig
+            width: 150px
+            top: -20px
+            left: 5px
+        &__fig2
+            width: 150px
+            left: 583px
+            top: -19px
+        &__plan
+            align-items: center
+            margin-left: 60px
+            margin-top: 65px
+        &__one
+            font-size: 40px
+            left: 35%
+            top: 17%
+        &__text
+            margin-top: 4px
+            margin-left: 20px
+        &__subtitle
+            font-size: 28px
+        &__item 
+            font-size: 16px
+        &__arrow
+            width: 70px
+            right: -90px
+            top: 20px
+        &__comp
+            width: 700px
+            margin-top: 50px
+    .info-2
+        padding-top: 220px
+        padding-bottom: 250px
+        &__plan
+            align-items: center
+            margin-left: 60px
+            margin-top: 20px
+        &__one
+            font-size: 40px
+            left: 35%
+            top: 17%
+        &__text
+            margin-top: 5px
+            margin-left: 20px
+        &__letter
+            width: 120px
+            margin-left: 20px
+        &__subtitle
+            font-size: 28px
+        &__item 
+            width: 400px
+            font-size: 16px
+        &__arrow
+            width: 70px
+            top: 50px
+            left: -75px
+        &__pink
+            font-size: 40px
+            text-align: center
+            display: block
+        &__fly
+            width: 180px
+            top: 250px
+@media screen and ( max-width: 800px )
+    .info
+        &__fig
+            width: 140px
+            top: -20px
+            left: 10px
+        &__fig2
+            width: 140px
+            left: 576px
+            top: -19px
+        &__arrow
+            width: 70px
+            right: -83px
+            top: 20px
+@media screen and ( max-width: 740px )
+    .info
+        padding-bottom: 90px
+        &__title
+            margin: auto
+            width: 178px
+            margin-top: 24px 
+            font-size: 17px
+            margin-bottom: 21px
+            background-color: #3DB7EA
+        &__fig
+            width: 41px
+            top: 3px
+            left: 27px
+        &__fig2
+            width: 50px
+            top: -3px
+            left: 248px
+        &__plan
+            align-items: center
+            margin-left: 53px
+            margin-top: 10px
+        &__one
+            font-size: 16px
+            left: 31%
+            top: 17%
+        &__text
+            margin-top: 4px
+            margin-left: 10px
+        &__subtitle
+            width: 146px
+            font-size: 14px
+        &__item 
+            width: 174px
+            font-size: 12px
+        &__arrow
+            width: 28px
+            right: -35px
+            top: 55px
+        &__comp
+            width: 270px
+            margin-top: 5px
+        &__crc
+            margin-top: -60px
+    .info-2
+        padding-top: 80px
+        padding-bottom: 70px
+        &__plan
+            align-items: center
+            margin-left: 53px
+            margin-top: 5px
+            
+        &__one
+            font-size: 16px
+            left: 31%
+            top: 17%
+        &__text
+            margin-top: 5px
+            margin-left: 10px
+        &__letter
+            display: none
+        &__subtitle
+            width: 170px
+            font-size: 14px
+        &__item 
+            width: 184px
+            font-size: 12px
+        &__arrow
+            width: 28px
+            height: 93px
+            left: -35px
+            top: 25px
+        &__pink
+            font-size: 19px
+            text-align: center
+            display: block
+        &__fly
+            width: 51px
+            top: 223px
+        &__plt
+            padding: 0
+            margin-top: 0px
+        &__pls
+            padding: 0
+            margin-top: 0px
+        &__a
+            margin-top: -95px
+        &__offer
+            margin-top: 24px
+            
+@media screen and ( max-width: 340px )
+    .info
+        &__fig
+            top: 3px
+            left: 20px
+        &__fig2
+            top: -3px
+            left: 242px

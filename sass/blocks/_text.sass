@@ -1,0 +1,397 @@
+.text
+    position: relative
+    padding: 180px 0 106px 0
+    &__block
+    &__line
+        text-decoration: none
+        border-bottom: 5px solid $main-color
+    &-arrow
+        &__left
+            position: absolute
+            left: -90px
+            top: 330px
+        &__right
+            position: absolute
+            margin: auto
+            right: -90px
+            top: 300px
+    &-contentA
+        background-image: url('../img/form-1.png')
+        background-repeat: no-repeat
+        background-position-y: 40px
+        position: relative
+        height: 400px
+        &__titleA
+            display: block
+            font-size: 44px
+            color: $circle-color
+        &__subtitleA
+            display: block
+            width: 1098px
+            line-height: 42px
+            font-size: 32px
+            padding: 83px 0 0 100px
+    &-contentB
+        background-image: url('../img/form-2.png')
+        background-repeat: no-repeat
+        background-position-y: 40px
+        background-position-x: right
+        position: relative
+        height: 450px
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        &__titleB
+            display: block
+            font-size: 44px
+            color: $item-color
+            text-align: right
+        &__subtitleB
+            display: block
+            width: 1098px
+            padding: 83px 100px 0 0
+            line-height: 42px
+            font-size: 32px
+            text-align: right
+    &-contentC
+        background-image: url('../img/form-3.png')
+        background-repeat: no-repeat
+        background-position-y: 45px
+        position: relative
+        height: 400px
+        &__titleC
+            display: block
+            font-size: 44px
+            color: $titleA-color
+        &__subtitleC
+            display: block
+            padding: 59px 0 0 124px
+            line-height: 42px
+            width: 1098px
+            font-size: 32px
+
+
+@media screen and ( max-width: 1892px )
+    .text
+        position: relative
+        padding: 90px 0 80px 0
+        &__block
+        &__line
+            text-decoration: none
+            border-bottom: 3px solid $main-color
+        &-arrow
+            &__left
+                width: 150px
+                left: -70px
+                top: 260px
+            &__right
+                width: 150px
+                right: -50px
+                top: 250px
+
+        &-contentA
+            background-image: url('../img/form-1.png')
+            background-repeat: no-repeat
+            background-position-y: 40px
+            background-size: 1000px
+            height: 340px
+            &__titleA
+                display: block
+                font-size: 30px
+                color: $circle-color
+            &__subtitleA
+                display: block
+                width: 880px
+                line-height: 28px
+                font-size: 22px
+                padding: 75px 0 0 100px
+        &-contentB
+            background-image: url('../img/form-2.png')
+            background-repeat: no-repeat
+            background-size: 1000px
+            background-position-y: 40px
+            background-position-x: right
+            height: 340px
+            display: flex
+            flex-direction: column
+            align-items: flex-end
+            &__titleB
+                display: block
+                font-size: 30px
+                color: $item-color
+                text-align: right
+            &__subtitleB
+                display: block
+                width: 860px
+                line-height: 28px
+                padding: 83px 100px 0 0
+                font-size: 22px
+                text-align: right
+        &-contentC
+            background-image: url('../img/form-3.png')
+            background-repeat: no-repeat
+            background-position-y: 45px
+            background-size: 1000px
+            height: 400px
+            &__titleC
+                display: block
+                font-size: 30px
+                color: $titleA-color
+            &__subtitleC
+                display: block
+                line-height: 28px
+                padding: 85px 0 0 100px
+                width: 860px
+                font-size: 22px
+
+@media screen and ( max-width: 1317px )
+    .text
+        position: relative
+        padding: 90px 0 80px 0
+        &__block
+        &__line
+            text-decoration: none
+            border-bottom: 3px solid $main-color
+        &-arrow
+            &__left
+                width: 100px
+                left: -40px
+                top: 250px
+            &__right
+                width: 100px
+                right: -40px
+                top: 250px
+        &-contentA
+            background-image: url('../img/form-1.png')
+            background-repeat: no-repeat
+            background-position-y: 50px
+            background-size: 900px
+            margin-left: 30px
+            height: 300px
+            &__titleA
+                display: block
+                font-size: 28px
+                color: $circle-color
+            &__subtitleA
+                display: block
+                width: 740px
+                line-height: 24px
+                font-size: 18px
+                padding: 83px 0 0 80px
+        &-contentB
+            background-image: url('../img/form-2.png')
+            background-repeat: no-repeat
+            background-size: 900px
+            background-position-y: 40px
+            background-position-x: right
+            margin-right: 50px
+            height: 320px
+            display: flex
+            flex-direction: column
+            align-items: flex-end
+            &__titleB
+                display: block
+                font-size: 28px
+                color: $item-color
+                text-align: right
+            &__subtitleB
+                display: block
+                width: 740px
+                padding: 90px 90px 0 0
+                line-height: 24px
+                font-size: 18px
+                text-align: right
+        &-contentC
+            background-image: url('../img/form-3.png')
+            background-repeat: no-repeat
+            background-position-y: 45px
+            background-size: 900px
+            margin-left: 50px
+            height: 300px
+            margin-top: 30px
+            &__titleC
+                display: block
+                font-size: 28px
+                color: $titleA-color
+            &__subtitleC
+                display: block
+                padding: 85px 0 0 90px
+                line-height: 24px
+                width: 740px
+                font-size: 18px
+
+@media screen and ( max-width: 1180px )
+    .text
+        &__line
+            border-bottom: 2px solid $main-color
+        &-arrow
+            &__left
+                width: 80px
+                left: -40px
+                top: 190px
+            &__right
+                width: 80px
+                right: -40px
+                top: 220px
+        &-contentA
+            background-position-y: 40px
+            background-size: 700px
+            margin-left: 0px
+            height: 240px
+            &__titleA
+                display: block
+                font-size: 24px
+                color: $circle-color
+            &__subtitleA
+                display: block
+                width: 600px
+                font-size: 16px
+                padding: 50px 0 0 60px
+        &-contentB
+            margin-top: 10px
+            background-size: 700px
+            background-position-y: 40px
+            background-position-x: right
+            height: 250px
+            margin-right: 0px
+            display: flex
+            flex-direction: column
+            align-items: flex-end
+            &__titleB
+                display: block
+                font-size: 24px
+                color: $item-color
+                text-align: right
+            &__subtitleB
+                display: block
+                width: 600px
+                padding: 55px 60px 0 0
+                font-size: 16px
+                text-align: right
+        &-contentC
+            background-position-y: 45px
+            background-size: 700px
+            margin-left: 0px
+            height: 250px
+            margin-top: 10px
+            &__titleC
+                display: block
+                font-size: 24px
+                color: $titleA-color
+            &__subtitleC
+                display: block
+                padding: 60px 0 0 60px
+                width: 600px
+                font-size: 16px
+@media screen and ( max-width: 800px )
+    .text
+        &-arrow
+            &__left
+                width: 80px
+                left: -40px
+                top: 190px
+            &__right
+                width: 80px
+                right: -40px
+                top: 200px
+        &-contentA
+            background-position-y: 40px
+            background-size: 600px
+            margin-left: 40px
+            height: 200px
+            &__subtitleA
+                width: 530px
+                font-size: 15px
+                padding: 40px 0 0 50px
+        &-contentB
+            background-position-y: 40px
+            background-size: 600px
+            margin-right: 40px
+            height: 218px
+            &__subtitleB
+                width: 530px
+                font-size: 15px
+                padding: 45px 50px 0 0px
+        &-contentC
+            background-position-y: 40px
+            background-size: 600px
+            margin-left: 40px
+            height: 200px
+            &__subtitleC
+                width: 530px
+                font-size: 15px
+                padding: 40px 0 0 50px
+@media screen and ( max-width: 740px )
+    .text
+        padding: 20px 0 20px 0
+        &__line
+            border-bottom: 1px solid $main-color
+        &-arrow
+            &__left
+                width: 26px
+                top: 80px
+                left: -10px
+            &__right
+                width: 26px
+                top: 90px
+                right: -15px
+        &-contentA
+            background-image: url('../img/ot-1.png')
+            background-repeat: no-repeat
+            background-position-y: 10px
+            background-size: 250px
+            margin-left: 15px
+            height: 110px
+            &__titleA
+                display: block
+                font-size: 9.7px
+                color: $circle-color
+            &__subtitleA
+                display: block
+                width: 215px
+                line-height: 11px
+                font-size: 8px
+                padding: 9px 0 0 20px
+        &-contentB
+            background-image: url('../img/ot-2.png')
+            margin-top: 0px
+            background-position-y: 10px
+            background-position-x: right
+            height: 100px
+            display: flex
+            background-size: 250px
+            flex-direction: column
+            align-items: flex-end
+            margin-right: 15px
+            &__titleB
+                display: block
+                font-size: 9.7px
+                color: $item-color
+                text-align: right
+            &__subtitleB
+                display: block
+                width: 212px
+                padding: 10px 20px 0 0
+                line-height: 11px
+                font-size: 8px
+                text-align: right
+        &-contentC
+            background-image: url('../img/ot-3.png')
+            background-position-y: 10px
+            background-size: 250px
+            height: 100px
+            margin-top: 0px
+            margin-left: 15px
+            &__titleC
+                display: block
+                font-size: 9.7px
+                color: $titleA-color
+            &__subtitleC
+                display: block
+                padding: 10px 0 0 20px
+                line-height: 11px
+                width: 205px
+                font-size: 8px
+
+
+
